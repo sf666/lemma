@@ -95,16 +95,6 @@
         </repository>
     </repositories>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>onejar-maven-plugin.googlecode.com</id>
-            <url>http://onejar-maven-plugin.googlecode.com/svn/mavenrepo</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
-
     <!-- ##################################################################################################### -->
 
     <build>
@@ -161,7 +151,7 @@
 
                 <!-- One-JAR executable -->
                 <plugin>
-                    <groupId>org.dstovall</groupId>
+                    <groupId>com.jolira</groupId>
                     <artifactId>onejar-maven-plugin</artifactId>
                     <version>1.4.4</version>
                 </plugin>
